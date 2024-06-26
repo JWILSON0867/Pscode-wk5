@@ -12,7 +12,19 @@ print on the screen the sum of those 2 numbers
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+int X
+int a
+int b
+
+a % b = x
+if x == 1
+	Print "number is Odd"
+
+if x == 0
+	Print "number is Even"
+	
+else
+	Print "Invalid input detected"
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -22,6 +34,43 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+int num1
+int num2
+int num3
+int num4
+int num5
+int avg
+int numbers[]
+int largest
+int smallest
+
+Print "enter number 1"
+input() = num1
+
+Print "enter number 2"
+input() = num2
+
+Print "enter number 3"
+input() = num3
+
+Print "enter number 4"
+input() = num4
+
+Print "enter number 5"
+input() = num5
+
+(int1 + int2 + int3 + int4 + int5)/5 = avg
+
+num1, num2, num3, num4, num5 ADD numbers
+
+for number in numbers
+	if numbers[i] > largest
+            largest = numbers[i]
+			
+	end if numbers[i] < smallest
+            smallest = numbers[i]
+			
+Print "the average is (avg)"
+Print "The largest number is (largest) and the smallest is (smallest)"
 
 -- END --
